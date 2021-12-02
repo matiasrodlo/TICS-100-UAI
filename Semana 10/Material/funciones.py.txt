@@ -1,0 +1,11 @@
+
+def num_veces(text):
+    num = int(input("¿Cuántas veces quieres escribir el texto?"))
+    imprime_texto(text,num)
+
+def imprime_texto(texto,num_veces):
+    for i in range(0,num_veces):
+        print(texto)
+
+texto = input("Ingrese el texto: ")
+num_veces(texto)

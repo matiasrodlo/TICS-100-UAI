@@ -1,0 +1,25 @@
+# juego = True
+# while (juego):
+#     print (" Ingresa 1 para jugar, 2 para elegir el nombre de tu personaje o 0 para salir")
+#     num = int(input())
+#     if (num == 1):
+#         print("estas jugando al juego de los cerditos!")
+#     elif (num == 2):
+#         nombre = input("Escribe el nopmbre de tu personaje")
+#         print(f"Tu nombre es {nombre}")
+#     else:
+#         break
+
+# sum = 0
+# for i in range(0,50): #[1,11) 
+#     if(i%3 == 0):
+#         sum += i
+#     print(sum)
+
+cantidad = int(input("Ingresa la cantidad de filas # que quieres"))
+
+for i in range (1,cantidad+1): #va desde 0 hasta la variable cantidad sin considerar el valor de la variable cantidad
+    print("#####")
+
+# rango = range(0,13,3)
+# print(list(rango))

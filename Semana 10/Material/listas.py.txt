@@ -1,0 +1,24 @@
+# lista = [4,34,6,"hola",True,"tiqui tiqui ti"]
+
+# # for elemento in lista:
+# #     if elemento < 10:
+# #         print(elemento)
+
+# for i in range(0,len(lista)):
+#     print(f"el indice de la lista es: {i} y su elemento es: {lista[i]}")
+#     if i % 2 == 0:
+#         print(f"el indice par de la lista es: {i} y su elemento de indice par es: {lista[i]}")
+   
+# num = int(input("Ingresa el número de elementos de la lista"))
+# lista = []
+
+
+# for i in range (0,num):
+#     elemento = int(input(f"Ingresa el elemento {i} de la lista: "))
+#     lista.append(elemento)
+
+# print(lista)
+
+nombre = "Rafael Cereceda"
+
+print(nombre[3])

@@ -1,0 +1,9 @@
+import numpy
+
+num = int(input("Ingresa el tamaño de la matriz: "))
+
+matriz = numpy.ones([num,num])
+matriz[1:matriz.shape[0]-1,1:matriz.shape[1]-1] = 0
+
+
+print(matriz)

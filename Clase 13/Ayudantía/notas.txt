@@ -1,0 +1,5 @@
+Nombre,Apellido,C1,C2,C3,P1,P2,EX,PROM
+Juan,Perez,1,6,4,5,3,6,4.5
+Alberto,Ahumada,7,4,6,5,5,3,4.5
+Florencia,Dandi,2,4,4,3,6,7,4.5
+Valentina,Gallegos,1,1,5,6,6,7,4.5

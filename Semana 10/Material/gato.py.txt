@@ -1,0 +1,75 @@
+import numpy as np
+
+###########
+def revisar(matriz,jug):
+    
+    #revisar las filas
+    for i in range(0,3):
+        vector = matriz[i,:] #extraemos la i-ésima fila
+        #print(f"el vector a revisar es: {vector}")
+        #print(f"el max es:{vector.max()} y el min es: {vector.min()}")
+        if (vector.min() == vector.max() and (vector.min() == 1.0 or vector.min() == 2.0 )):
+            print(f"Gana el {jug}")
+            return True
+
+    for j in range(0,3):
+        vector = matriz[:,j] #extraemos la i-ésima fila
+        #print(f"el vector a revisar es: {vector}")
+        #print(f"el max es:{vector.max()} y el min es: {vector.min()}")
+        #print(vector)
+        if (vector.min() == vector.max() and (vector.min() == 1.0 or vector.min() == 2.0 )):
+            print(f"Gana el {jug}")
+            return True
+
+    if(matriz[0,0]==matriz[1,1] and matriz[1,1]==matriz[2,2] and (matriz[1,1] == 1.0 or matriz[1,1] == 2.0 )):
+        print(f"Gana el {jug}")
+        return True
+
+    if(matriz[0,2]==matriz[1,1] and matriz[1,1]==matriz[2,0] and (matriz[1,1] == 1.0 or matriz[1,1] == 2.0 )):
+        print(f"Gana el {jug}")
+        return True
+
+
+###########
+def pide_num(jug):
+    print(f"*******Está jugando el jugador {jug}***********")
+    jx = int(input(f"J{jug}: Ingresa la posición x de tu jugada: "))
+    jy = int(input(f"J{jug}: Ingresa la posición y de tu jugada: "))
+    
+    while(jx<0 or jx>2 or jy<0 or jy>2):
+        print("Este lugar está fuera del tablero, elige otro lugar")
+        jx = int(input(f"J{jug}: Ingresa la posición x de tu jugada: "))
+        jy = int(input(f"J{jug}: Ingresa la posición y de tu jugada: "))
+
+    while (gato[jx,jy] != 0):
+        print("En ese lugar ya hay una ficha, elige otro lugar")
+        jx = int(input(f"J{jug}: Ingresa la posición x de tu jugada: "))
+        jy = int(input(f"J{jug}: Ingresa la posición y de tu jugada: "))
+
+    return jx,jy
+
+
+
+############Programa Principal############
+
+gato = np.zeros([3,3])
+print(gato)
+
+while True:
+
+    j1x,j1y = pide_num(1)
+
+    gato[j1x,j1y] = 1
+    print(gato)
+    resultado = revisar(gato,"Jugador 1")
+    if resultado:
+        break
+
+    
+    j2x,j2y = pide_num(2)
+    gato[j2x,j2y] = 2
+    print(gato)
+
+    resultado = revisar(gato, "Jugador 2")
+    if resultado:
+        break
