@@ -1,7 +1,6 @@
-# TICS-100-UAI
 TICS-100 Programación @ Universidad Adolfo Ibañez
 
-**Estrategias de enseñanza y aprendizaje**
+# Estrategias de enseñanza y aprendizaje
 
 El curso está diseñado en dos etapas. En la primera fase busca el desarrollo del proceso de abstracción en la resolución de
 problemas empleando el lenguaje natural. Ello habilita al alumno a desarrollar un pensamiento más estructurado y claro,
@@ -10,7 +9,8 @@ y análisis para definir las fases que existen en la resolución de un problema.
 transferencia de conocimiento a un lenguaje de programación formal (Python) que permite finalmente la ejecución en el
 computador de un problema acotado, definido, y estructurado.
 
-**Contenidos:** 
+# Contenidos:
+
 1. Introducción a la resolución de problemas
 2. Análisis formal de un problema (condiciones borde, ciclos)
 3. Descripción de un problema en sub-etapas a través de un lenguaje natural
