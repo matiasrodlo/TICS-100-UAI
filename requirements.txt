@@ -1,0 +1,18 @@
+# Core Python packages
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Jupyter and interactive development
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=7.0.0
+
+# Development tools
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Additional utilities
+python-dotenv>=1.0.0
+requests>=2.31.0 

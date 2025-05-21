@@ -1,32 +1,68 @@
-TICS-100 Programación @ Universidad Adolfo Ibañez
+# TICS-100 Programming @ Universidad Adolfo Ibáñez
 
-# Estrategias de enseñanza y aprendizaje
+## Course Overview
 
-El curso está diseñado en dos etapas. En la primera fase busca el desarrollo del proceso de abstracción en la resolución de
-problemas empleando el lenguaje natural. Ello habilita al alumno a desarrollar un pensamiento más estructurado y claro,
-identificando condiciones de borde y condiciones repetitivas. Este proceso requiere una inversión de tiempo de discusión
-y análisis para definir las fases que existen en la resolución de un problema. En la segunda fase del curso se busca la
-transferencia de conocimiento a un lenguaje de programación formal (Python) que permite finalmente la ejecución en el
-computador de un problema acotado, definido, y estructurado.
+This course is designed in two phases to develop students' programming and problem-solving skills:
 
-# Contenidos:
+1. **Problem-Solving and Abstraction Phase**
+   - Focuses on developing abstraction skills in problem-solving using natural language
+   - Helps students develop structured and clear thinking
+   - Emphasizes identifying edge cases and repetitive conditions
+   - Requires dedicated time for discussion and analysis to define problem-solving phases
 
-1. Introducción a la resolución de problemas
-2. Análisis formal de un problema (condiciones borde, ciclos)
-3. Descripción de un problema en sub-etapas a través de un lenguaje natural
-4. Técnicas de resolución de un problema
-5. Hour Of Code
-6. Introducción al lenguaje de programación Python
-7. Introducción a Python
-8. Trabajando con Python: herramientas
-9. Noción y manejo de variables
-10. Uso de operadores lógicos y aritméticos
-11. Manejo de condiciones (IF-ELSE)
-12. Introducción al uso de funciones estándar de Python (print, input, entre otras)
-13. Tipos de datos avanzados: listas, tuplas, sets, diccionarios
-14. Manejo de ciclos y condicionales anidados
-15. Uso de módulos de terceros en Python (random, math, numpy, pandas)
-16. Definición de funciones propias
-17. Introducción a orientación a objetos en Python
-18. Aplicaciones en Python
-19. Desarrollo de proyecto en Python
+2. **Programming Implementation Phase**
+   - Transfers knowledge to a formal programming language (Python)
+   - Enables computer execution of well-defined, structured problems
+   - Provides hands-on experience with real-world programming scenarios
+
+## Course Content
+
+1. Introduction to Problem Solving
+2. Formal Problem Analysis (Edge Cases, Loops)
+3. Problem Description in Sub-stages using Natural Language
+4. Problem-Solving Techniques
+5. Hour of Code
+6. Introduction to Python Programming Language
+7. Python Basics
+8. Working with Python: Tools and Environment
+9. Variables: Concepts and Management
+10. Logical and Arithmetic Operators
+11. Conditional Statements (IF-ELSE)
+12. Introduction to Python Standard Functions (print, input, etc.)
+13. Advanced Data Types: Lists, Tuples, Sets, Dictionaries
+14. Nested Loops and Conditionals
+15. Third-party Python Modules (random, math, numpy, pandas)
+16. Custom Function Definition
+17. Introduction to Object-Oriented Programming in Python
+18. Python Applications
+19. Python Project Development
+
+## Repository Structure
+
+This repository contains course materials, including:
+- Lecture notes
+- Code examples
+- Practice exercises
+- Project templates
+- Additional resources
+
+## Getting Started
+
+1. Clone this repository
+2. Set up a Python development environment
+3. Review the course materials in the respective directories
+4. Complete the exercises and projects as assigned
+
+## Requirements
+
+- Python 3.x
+- Basic text editor or IDE
+- Required Python packages (see requirements.txt)
+
+## Contributing
+
+This repository is maintained for educational purposes. For questions or suggestions, please contact the course instructor.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
